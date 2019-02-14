@@ -1,6 +1,6 @@
 <?php
-require 'core/database/connection.php';
-require 'core/database/queryBuilder.php';
+require 'core/database/Connection.php';
+require 'core/database/QueryBuilder.php';
 
 class callController{
 	protected $queryObject;
