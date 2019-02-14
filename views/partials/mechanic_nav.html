@@ -1,0 +1,17 @@
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="p-2" style="background:#007bff">
+      <h5 class="text-black h4">Mechanic Locator</h5>		
+		<a class="nav-link text-white" href="mechanic.php">View Requests</a>
+		<a class="nav-link text-white" href="updateMechanic.php">Update profile</a>		
+		<a class="nav-link text-white" href="logout.php">Logout</a>
+    </div>
+  </div>
+ </div>
+<nav class="navbar navbar-dark bg-primary">
+    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	<h5><?php echo $_SESSION['user_name']; ?></h5>
+</nav>
+
