@@ -3,7 +3,7 @@ return[
 	'name' => 'mechanic',
 	'username' => 'thabo_mnguni',
 	'password' => 'Kaysto2#',
-	'connection' => 'www.db4free.net',
+	'connection' => 'mysql:host=www.db4free.net',
 	'options' => [
 		PDO::ATTR_PERSISTENT    => true,
     	PDO::ATTR_ERRMODE       => PDO::ERRMODE_EXCEPTION,
